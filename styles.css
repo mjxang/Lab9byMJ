@@ -84,6 +84,7 @@ header {
     max-height: 90%;
     border: 10px solid #ffcc00;
     border-radius: 20px;
+    justify-content: center;
 }
 
 .close {
