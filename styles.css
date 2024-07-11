@@ -11,7 +11,7 @@ header {
     text-align: center;
     background-color: #ff6f61;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 2em;
     text-shadow: 2px 2px #000000;
 }
@@ -21,12 +21,11 @@ header {
     margin: 20px 0;
 }
 
-.filters button {
+.filters .filter-btn {
     margin: 0 10px;
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
-    background-color: #ffcc00;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
@@ -34,8 +33,33 @@ header {
     box-shadow: 3px 3px #888888;
 }
 
-.filters button:hover {
-    background-color: #ff9900;
+/* Specific colors for each filter button */
+.filters .all {
+    background-color: #5f5738;
+}
+
+.filters .joy {
+    background-color: #fff261;
+}
+
+.filters .sadness {
+    background-color: #5582b0;
+}
+
+.filters .fear {
+    background-color: #c83ce7;
+}
+
+.filters .anger {
+    background-color: #d63030;
+}
+
+.filters .disgust {
+    background-color: #2da024;
+}
+
+/* Hover effects for each filter button */
+.filters .filter-btn:hover {
     transform: scale(1.1);
 }
 
