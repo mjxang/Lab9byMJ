@@ -3,12 +3,14 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Interactive Photo Gallery Lab</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css"> <!--link to external css-->
     </head>
     <body>
+        <!--header section-->
         <header>
             <h1>Inside Out Emotions Aesthetics</h1>
         </header>
+        <!--filter button section-->
         <section class="filters">
             <button data-filter="all">All</button>
             <button data-filter="joy">Joy</button>
@@ -17,6 +19,7 @@
             <button data-filter="anger">Anger</button>
             <button data-filter="disgust">Disgust</button>
         </section>
+        <!--img gallery section-->
         <section class="gallery">
             <div class="image joy"><img src="https://i.pinimg.com/236x/0d/ac/a4/0daca440fb71720a33382e8cc3717981.jpg" alt="Joy Image 1"></div>
             <div class="image joy"><img src="https://i.pinimg.com/236x/bf/85/8e/bf858e777fef9d9cb6da93709a96ea1b.jpg" alt="Joy Image 2"></div>
@@ -43,7 +46,11 @@
             <div class="image disgust"><img src="https://i.pinimg.com/236x/8d/6a/75/8d6a75ab4002270965e4797bb6b985fb.jpg" alt="Disgust Image 3"></div>
             <div class="image disgust"><img src="https://i.pinimg.com/236x/6e/02/da/6e02da8084726f6a7b055feb4493722c.jpg" alt="Disgust Image 4"></div>
             
-
+            <!--lightbox to view images bigger-->
+            <div id="lightbox" class="lightbox">
+                <span class="close">&times;</span>
+                <img class="lightbox-content" id="lightbox-img">
+            </div>
 
 
 
